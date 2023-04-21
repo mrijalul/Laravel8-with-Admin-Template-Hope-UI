@@ -48,3 +48,9 @@ gunakan <i>Route::currentRouteName()</i> untuk mengenali menu active, cukup meng
 ```
 contoh : class="nav-link {{ (strpos(Route::currentRouteName(), 'dashboard') == 0) ? 'active' : '' }}"
 ```
+
+dalam project ini menggunakan font awesome v6
+
+```
+https://fontawesome.com/v6/search?o=r&m=free
+```
