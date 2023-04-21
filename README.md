@@ -43,6 +43,14 @@ buat .env dengan cara copy .env.example
 cp .env.example .env
 ```
 
+ganti db_name
+
+```
+DB_DATABASE=namaProjectAnda
+DB_USERNAME=usernameDBanda
+DB_PASSWORD=passwordDBanda
+```
+
 run
 
 ```
@@ -51,8 +59,10 @@ php artisan migrate
 
 gunakan <i>Route::currentRouteName()</i> untuk mengenali menu active, cukup menggunakan name pada route
 
+contoh :
+
 ```
-contoh : class="nav-link {{ (strpos(Route::currentRouteName(), 'dashboard') == 0) ? 'active' : '' }}"
+class="nav-link {{ (strpos(Route::currentRouteName(), 'dashboard') == 0) ? 'active' : '' }}"
 ```
 
 dalam project ini menggunakan font awesome v6 : https://fontawesome.com/v6/search?o=r&m=free
