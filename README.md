@@ -36,3 +36,8 @@ run
 ```
 npm run prod
 ```
+run
+
+```
+php artisan migrate
+```

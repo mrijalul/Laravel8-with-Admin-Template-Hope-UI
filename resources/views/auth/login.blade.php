@@ -1,5 +1,8 @@
 @extends('layouts.guest')
 
+@section('title','Login')
+	
+{{-- @endsection --}}
 @section('content')
 <div class="col-md-6">
 	<div class="row justify-content-center">
