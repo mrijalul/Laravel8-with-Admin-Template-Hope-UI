@@ -36,8 +36,15 @@ run
 ```
 npm run prod
 ```
+
 run
 
 ```
 php artisan migrate
+```
+
+gunakan <i>Route::currentRouteName()</i> untuk mengenali menu active, cukup menggunakan name pada route
+
+```
+contoh : class="nav-link {{ (strpos(Route::currentRouteName(), 'dashboard') == 0) ? 'active' : '' }}"
 ```
