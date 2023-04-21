@@ -37,6 +37,12 @@ run
 npm run prod
 ```
 
+buat .env dengan cara copy .env.example
+
+```
+cp .env.example .env
+```
+
 run
 
 ```
@@ -49,8 +55,4 @@ gunakan <i>Route::currentRouteName()</i> untuk mengenali menu active, cukup meng
 contoh : class="nav-link {{ (strpos(Route::currentRouteName(), 'dashboard') == 0) ? 'active' : '' }}"
 ```
 
-dalam project ini menggunakan font awesome v6
-
-```
-https://fontawesome.com/v6/search?o=r&m=free
-```
+dalam project ini menggunakan font awesome v6 : https://fontawesome.com/v6/search?o=r&m=free
